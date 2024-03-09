@@ -73,11 +73,7 @@ namespace WindowsFormsApp3
         }
         private void ApplyCustomRule()
         {
-            //            rules:
-            //            If a cell is alive and there are 2 living cells around it,
-            //            or there is 1 living cell around it, it will remain alive at
-            //            the next moment.
-            //            Otherwise, the cell will die at the next moment.
+
             for (int row = 0; row < 20; row++)
             {
                 for (int col = 0; col < 20; col++)
